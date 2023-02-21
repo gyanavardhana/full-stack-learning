@@ -1,0 +1,11 @@
+/*
+this is commenting in css.
+in this css file we are going to learn exteranl css usage.
+by this method we can apply the single css style to as many as many html files we want.
+we are going to link this file to the html file by using the below code.for example..
+"""" <link rel="stylesheet" href="existing dir/external.css">"""'"
+by this code part in html we are going to link the external css.
+*/
+body{
+    background-color: #15aec9;
+}
