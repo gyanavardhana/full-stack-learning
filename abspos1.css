@@ -1,0 +1,31 @@
+/*
+here the absolute means the behaviour of the child class or child element
+behaves according to the parent class which it is declared or mentioned here
+in this program the parent class div class with the grey colour and the 
+child classed are red,blue,green.*/
+.grey{
+    height: 400px;
+    width : 400px;
+    background-color: grey;
+  }
+  .red{
+      height: 100px;
+      width : 100px;
+      background-color: red;
+      position : absolute;
+      
+  }
+  .green{
+      height: 100px;
+      width : 100px;
+      background-color: green;
+      position: absolute;
+      left: 100px;
+  }
+  .blue{
+      height: 100px;
+      width : 100px;
+      background-color: blue;
+      position : absolute;
+      left: 200px;
+  }
