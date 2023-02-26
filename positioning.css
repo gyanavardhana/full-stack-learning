@@ -1,0 +1,31 @@
+/*
+in this css file we are going to learn about the position attribute.
+there are so many types of position attibutes.
+we are using the relative position attribute.
+where the present element position will be depeended on the previous html element.
+this is known as positioning.
+there are types in postiionin.
+they are ::
+left,right,bottom,top
+*/
+.red{
+    height: 100px;
+    width : 100px;
+    background-color: red;
+    position : relative;
+    left: 0px;
+}
+.green{
+    height: 100px;
+    width : 100px;
+    background-color: green;
+    position: relative;
+    left: 100px;
+}
+.blue{
+    height: 100px;
+    width : 100px;
+    background-color: blue;
+    position : relative;
+    left: 200px;
+}
