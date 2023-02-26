@@ -1,0 +1,18 @@
+.jai{
+    /*width is not modified as it is a line element.*/
+    background-color : red;
+    width : 100px;
+    display : inline;  
+  }
+  .sri{
+    /*width is modified but it can not be side by side.*/
+    background-color : green;
+    width : 100px;
+    display : block;
+  }
+  .good{
+    background-color : blue;
+    width: 1100px;
+    display : inline-block;
+  }
+  
